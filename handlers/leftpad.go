@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 	"strconv"
-	"uaas/utils"
+	"uaas/utilities"
 
 	"github.com/labstack/echo/v4"
 )
@@ -17,6 +17,6 @@ func LeftPadHandler(c echo.Context) error {
 	padding, _ := strconv.Atoi(c.QueryParam("padding"))
 	padChar := c.QueryParam("padchar")
 
-	result := utils.LeftPad(input, padding, padChar)
+	result := utilities.LeftPad(input, padding, padChar)
 	return c.JSON(http.StatusOK, map[string]string{"result": result})
 }
