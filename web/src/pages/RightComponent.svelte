@@ -91,7 +91,7 @@
         {/if}
     </div>
 
-    <div class="w-full flex justify-center">
+    <div class="w-full flex justify-center pt-8">
         <slot name="barcode" />
     </div>
 </div>
