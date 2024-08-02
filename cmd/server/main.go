@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"os"
 	"uaas/config"
-	"uaas/internal/handlers"
-	m "uaas/internal/middleware"
+	"uaas/handlers"
+	m "uaas/middleware"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

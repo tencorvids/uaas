@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 	"strconv"
-	"uaas/internal/utils"
+	"uaas/utils"
 
 	"github.com/labstack/echo/v4"
 )
