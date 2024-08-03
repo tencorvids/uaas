@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.3](https://github.com/tencorvids/uaas/compare/v0.1.2...v0.1.3) (2024-08-03)
+
+
+### Bug Fixes
+
+* **web:** Styles not imported ([2de8e60](https://github.com/tencorvids/uaas/commit/2de8e601a04ffde153c63828a4096b67ab5cad54))
+
+
+### Miscellaneous Chores
+
+* Release 0.1.3 ([553cfb3](https://github.com/tencorvids/uaas/commit/553cfb33c0ab605664e3ef8647e8659e9ec728ed))
+
 ## [0.1.2](https://github.com/tencorvids/uaas/compare/v0.1.1...v0.1.2) (2024-08-03)
 
 
