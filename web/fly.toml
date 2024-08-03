@@ -1,22 +1,15 @@
-# fly.toml app configuration file generated for uaas on 2024-08-03T10:27:31-04:00
+# fly.toml app configuration file generated for web-morning-surf-9186 on 2024-08-03T10:35:55-04:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'uaas'
+app = 'uaas-web'
 primary_region = 'ewr'
 
 [build]
 
-[env]
-  PORT = '8080'
-
-[mounts]
-  source = 'counts_data'
-  destination = '/data'
-
 [http_service]
-  internal_port = 8080
+  internal_port = 80
   force_https = true
   auto_stop_machines = 'stop'
   auto_start_machines = true

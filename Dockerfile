@@ -9,7 +9,7 @@ RUN go build -v -o /run-app ./cmd/server
 
 FROM debian:bookworm
 
-RUN mkdir -p /app/data
+RUN mkdir -p /data
 COPY --from=builder /run-app /usr/local/bin/
 WORKDIR /app
 CMD ["run-app"]

@@ -14,7 +14,7 @@ import (
 )
 
 const (
-	countsFile = "/app/data/counts.json"
+	countsFile = "/data/counts.json"
 )
 
 func main() {
