@@ -7,13 +7,25 @@ on:
       - 'v*'
 
 jobs:
-  deploy:
-    name: Deploy app
+  deploy-api:
+    name: Deploy root app
     runs-on: ubuntu-latest
-    concurrency: deploy-group   
+    concurrency: deploy-root-group
     steps:
       - uses: actions/checkout@v4
       - uses: superfly/flyctl-actions/setup-flyctl@master
       - run: flyctl deploy --remote-only
+        env:
+          FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+
+  deploy-web:
+    name: Deploy web app
+    runs-on: ubuntu-latest
+    concurrency: deploy-web-group
+    steps:
+      - uses: actions/checkout@v4
+      - uses: superfly/flyctl-actions/setup-flyctl@master
+      - run: flyctl deploy --remote-only
+        working-directory: ./web
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
