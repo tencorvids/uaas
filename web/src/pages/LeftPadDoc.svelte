@@ -4,7 +4,7 @@
 <div class="flex gap-2 items-center">
     <span
         class="flex bg-black text-white rounded-full px-3 py-1.5 items-center justify-center"
-        >POST</span
+        >GET</span
     >
     <p class="underline">https://uaas.tencorvids.com/left-pad</p>
 </div>

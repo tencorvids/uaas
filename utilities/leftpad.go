@@ -6,16 +6,16 @@ import (
 )
 
 const (
-	DefaultPadding = 4
-	DefaultPadChar = " "
+	DefaultLeftPadding = 4
+	DefaultLeftPadChar = " "
 )
 
 func LeftPad(s string, p int, c string) string {
 	if p <= 0 {
-		p = DefaultPadding
+		p = DefaultLeftPadding
 	}
 	if c == "" {
-		c = DefaultPadChar
+		c = DefaultLeftPadChar
 	}
 	return fmt.Sprintf("%s%s", strings.Repeat(c, p), s)
 }
