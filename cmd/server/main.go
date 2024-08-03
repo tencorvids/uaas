@@ -13,10 +13,14 @@ import (
 	"github.com/labstack/echo/v4/middleware"
 )
 
+const (
+	countsFile = "/app/data/counts.json"
+)
+
 func main() {
 	cfg := config.Load()
 
-	c := counter.NewCounter("counts.json", 5*time.Minute)
+	c := counter.NewCounter(countsFile, 5*time.Minute)
 
 	e := echo.New()
 	e.Use(m.RequestLogger(cfg.Logger))
