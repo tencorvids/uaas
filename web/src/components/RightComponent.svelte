@@ -5,7 +5,7 @@
     import IsOddDoc from "./IsOddDoc.svelte";
     import { onMount } from "svelte";
 
-    const currentEndpoint = "https://uaas.fly.dev";
+    const currentEndpoint = "https://uaas-api.tencorvids.com";
 
     interface Endpoint {
         name: string;
