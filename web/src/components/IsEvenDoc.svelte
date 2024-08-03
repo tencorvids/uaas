@@ -18,7 +18,7 @@
 
     <p>
         <strong>Example Request:</strong><br />
-        https://uaas.tencorvids.com/is-even?number=4
+        https://uaas-api.tencorvids.com/is-even?number=4
     </p>
 
     <p>

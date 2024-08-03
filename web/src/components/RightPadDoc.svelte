@@ -22,7 +22,7 @@
 
     <p>
         <strong>Example Request:</strong><br />
-        https://uaas.tencorvids.com/right-pad?string=hello&amp;padding=5&amp;padchar=-
+        https://uaas-api.tencorvids.com/right-pad?string=hello&amp;padding=5&amp;padchar=-
     </p>
 
     <p>

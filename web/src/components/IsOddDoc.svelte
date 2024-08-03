@@ -18,7 +18,7 @@
 
     <p>
         <strong>Example Request:</strong><br />
-        https://uaas.tencorvids.com/is-odd?number=5
+        https://uaas-api.tencorvids.com/is-odd?number=5
     </p>
 
     <p>
