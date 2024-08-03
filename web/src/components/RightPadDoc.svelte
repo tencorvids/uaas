@@ -6,7 +6,7 @@
         class="flex bg-black text-white rounded-full px-3 py-1.5 items-center justify-center"
         >GET</span
     >
-    <p class="underline">https://uaas.tencorvids.com/right-pad</p>
+    <p class="underline">https://uaas-api.tencorvids.com/right-pad</p>
 </div>
 
 <div class="flex flex-col gap-8">
