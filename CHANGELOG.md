@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://github.com/tencorvids/uaas/compare/v0.1.3...v0.2.0) (2024-08-03)
+
+
+### Features
+
+* **web:** New phrase ([6ca4dba](https://github.com/tencorvids/uaas/commit/6ca4dba208442e5c8f2230d162be3cc019baf3fb))
+
 ## [0.1.3](https://github.com/tencorvids/uaas/compare/v0.1.2...v0.1.3) (2024-08-03)
 
 
