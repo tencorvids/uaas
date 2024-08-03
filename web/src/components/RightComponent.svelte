@@ -5,6 +5,8 @@
     import IsOddDoc from "./IsOddDoc.svelte";
     import { onMount } from "svelte";
 
+    const currentEndpoint = "https://uaas.fly.dev";
+
     interface Endpoint {
         name: string;
         id: string;
@@ -48,7 +50,7 @@
 
     onMount(async () => {
         try {
-            const response = await fetch("http://localhost:8080/counts");
+            const response = await fetch(currentEndpoint + "/counts");
             const counts = await response.json();
             endpoints = endpoints.map((endpoint) => ({
                 ...endpoint,
@@ -95,4 +97,3 @@
         <slot name="barcode" />
     </div>
 </div>
-
