@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.1.2](https://github.com/tencorvids/uaas/compare/v0.1.1...v0.1.2) (2024-08-03)
+
+
+### Bug Fixes
+
+* **web:** More doc fixes ([5a459bb](https://github.com/tencorvids/uaas/commit/5a459bb09a8456166765efdfdb29244d55cb1adf))
+
+
+### Miscellaneous Chores
+
+* Release 0.1.2 ([5f3320e](https://github.com/tencorvids/uaas/commit/5f3320e42771d82b5c8e58babd3806ea86ea8441))
+
 ## 0.1.1 (2024-08-03)
 
 
