@@ -2,6 +2,7 @@
 import { Image } from "astro:assets";
 import Barcode from "../assets/barcode.svg";
 import RightComponent from "../components/RightComponent.svelte";
+import "../styles.css";
 ---
 
 <html lang="en">
@@ -10,7 +11,6 @@ import RightComponent from "../components/RightComponent.svelte";
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
-        <link rel="stylesheet" href="/src/styles.css" />
         <title>UaaS</title>
     </head>
     <body class="h-screen flex p-2 lg:p-16 gap-16 justify-center">
