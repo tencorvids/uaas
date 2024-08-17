@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.5](https://github.com/tencorvids/uaas/compare/v0.1.3...v0.1.5) (2024-08-17)
+
+
+### Features
+
+* **ci:** New deployment settings ([553a99f](https://github.com/tencorvids/uaas/commit/553a99f44299715e01f847c1be2a574ee06c97f7))
+* **web:** New phrase ([6ca4dba](https://github.com/tencorvids/uaas/commit/6ca4dba208442e5c8f2230d162be3cc019baf3fb))
+
+
+### Bug Fixes
+
+* **ci:** Deployment changes, scale to 0 ([6431b45](https://github.com/tencorvids/uaas/commit/6431b454f5c8fa5ede189899af36d5c9e0f9e95d))
+
+
+### Miscellaneous Chores
+
+* Release 0.1.4 ([abd18c4](https://github.com/tencorvids/uaas/commit/abd18c4c927117d48ee590dad560b155a07dac19))
+* Release 0.1.5 ([f2d0ad2](https://github.com/tencorvids/uaas/commit/f2d0ad236cf685eda288311ac04880801df53b5f))
+
 ## [0.1.3](https://github.com/tencorvids/uaas/compare/v0.1.2...v0.1.3) (2024-08-03)
 
 
